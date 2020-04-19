@@ -18,7 +18,6 @@ class PasswordTests: XCTestCase {
         XCTAssertTrue(IsValid.password("ABCDEFG1"))
     }
     
-    //Begin here...
     func testPassword_shouldContainAtLeastOneCharacter() {
         XCTAssertFalse(IsValid.password("11111111"))
         XCTAssertFalse(IsValid.password("1#######"))
